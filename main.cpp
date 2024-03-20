@@ -2,14 +2,14 @@
 
 using namespace std;
 
-void util();
+int util();
 bool game(int ans, int guess);
 
 int main()
 {
     int ans, guess;
-    cout << "Enter the answer: ";
-    cin >> ans;
+    ans = util();
+    cout << "Answer is " << ans << endl;
     while(true)
     {
         cout << "Enter the guess: ";
