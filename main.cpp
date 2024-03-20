@@ -16,7 +16,7 @@ int main()
             cout << "You lose!";
             break;
         }
-        cout << chance-- << " chances left.";
+        cout << chance-- << " chances left." << endl;
         cout << "Enter the guess: ";
         cin >> guess;
         if(game(ans, guess)) break;
